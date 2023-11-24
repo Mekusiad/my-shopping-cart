@@ -1,0 +1,28 @@
+.navigation {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: rgba(172, 134, 136, 1);
+
+  height: 8vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.navigation button {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: #fff;
+  transition: all 0.4s ease;
+}
+
+.navigation button:hover {
+  cursor: pointer;
+  transform: scale(1.06);
+}
